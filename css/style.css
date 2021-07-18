@@ -1,0 +1,53 @@
+
+
+img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+}
+.derecha{
+
+    text-align: right;
+    margin: 0;
+
+}
+h1{
+    color:black;
+    text-align: center;
+
+}
+
+.fecha{
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block; /* solo el exto */
+    background-color: rgba(128, 128, 128, 0.267);
+    padding: 3px;
+}
+
+.info-martes{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#map{
+    width: 100%;
+    height: 800px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-bottom: 6px;
+   
+}
+
+.encabezadoH1{
+    color: black;
+}
+
+
+
+
+
+
+

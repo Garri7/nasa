@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estación Espacial Internacional - ISS, posición en tiempo real, video emisión en tiempo real.">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Estación Espacial Internacional - ISS</title>
+</head>
+<body >
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Imagen NASA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/image-astronomia.html">Imagen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/estacion.html">Estación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/astronautas.html">Astronautas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+
+        <h1 class="encabezadoH1">¿Donde se encuentra la Estación Espacial?</h1>
+        <p class="fs-5" >La Estación  Espacial Internacional se desplaza por el universo a una velocidad de 28.000 Km/h, por lo que cambia de lugar en poco tiempo.</p>
+        <p class="fs-3 text-center">¿Dónde está ahora mismo? IIS - POSICIÓN EN TIEMPO REAL</p>
+        <div class="pb-5" id="map"></div>
+        <div class="text-center">
+          
+            <h2 class="fs-4">LA TIERRA VISTA DESDE EL ESPACIO, EMISIÓN EN DIRECTO DESDE LA ISS </h2>
+            <iframe src="https://www.ustream.tv/embed/17074538?html5ui=1&amp;v=3&amp;wmode=direct" width="700" height="393" scrolling="no" style="border: 0 none transparent;"></iframe>
+            <h2 class="fs-4">LA TIERRA VISTA DESDE EL ESPACIO, EMISIÓN EN DIRECTO DESDE LA ISS DESDE OTRA PERSPECTIVA</h2>
+            <iframe  src="https://www.ustream.tv/embed/9408562?html5ui=1&amp;v=3&amp;wmode=direct" width="700" height="393" scrolling="no" style="border: 0 none transparent;"></iframe>
+
+         
+
+        </div>
+
+    </div>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white pt-lg-5 mt-lg-5">
+          
+    <!-- Copyright -->
+    <div class="text-center p-3" id="fecha" style="background-color: rgba(0, 0, 0, 0.2);"></div>
+    <!-- Copyright -->
+  </footer>
+
+    <script src="/js/estacion.js"></script>
+    <script async
+    src="url_google_api">
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
